@@ -1,7 +1,3 @@
-/**
- * Update the output text as a user types in the textarea
- * HINT: Use the onkeydown function inside HTML
- */
 function updateText() {
     let text = document.getElementById('text-input').value;
     document.getElementById('text-output').innerText = text;
